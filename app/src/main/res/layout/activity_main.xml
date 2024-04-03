@@ -27,18 +27,19 @@
         android:layout_marginStart="101dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="101dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/age"
         android:inputType="number"
         android:minHeight="48dp"
         android:textColor="#FDFAFA"
-        android:textColorHint="#546E7A"
+        android:textColorHighlight="#FBF9F9"
+        android:textColorHint="#F9FBFB"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button"

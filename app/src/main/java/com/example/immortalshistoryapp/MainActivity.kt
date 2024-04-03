@@ -54,8 +54,18 @@ class MainActivity : AppCompatActivity() {
                 Immortal.text = " Marry Church Terrell , American civil rights activist/journalist"
             }
             // these are all the famous historical figures that shall be outputted
+            Clear?.setOnClickListener {
+                Immortal.text = " "
 
+            // This is clear button that'll be clicked in order to clear the Immortal Text
+            }
+            if ( Age.text.toString().toInt() <20 || Age.text.toString().toInt() >=100){
+                Immortal.text = " Please enter an age number within the Age range"
+
+            // This code is for showing the user to enter correct age number , thats if they enter a wrong one
+            }
         }
+
 
 
 
