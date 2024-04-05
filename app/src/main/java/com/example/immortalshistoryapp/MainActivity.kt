@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
                 Immortal.text = " Please enter an age number within the Age range"
 
             // This code is for showing the user to enter correct age number , thats if they enter a wrong one
+
             }
         }
 
